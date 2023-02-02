@@ -1,0 +1,38 @@
+/* This section is used by the fifteen game. */
+#table {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.tile {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #222;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.blank {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#countMoves {
+  border: 1px solid #222;
+  font-weight: bold;
+  padding: 2px 5px;
+  color: #000;
+}
+
+#wrapper {
+  min-width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
