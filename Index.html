@@ -16,8 +16,8 @@
     <div class="jumbotron text-center">
         <h1>Number Puzzle</h1>
     </div>
-    <div id="wrapper" class="container-fluid" style="display:none">
-        <div id="content">
+    <div id="wrapper" style="display:none">
+        <div id="content" class="container-fluid">
             <table id="table" style="border-collapse:separate"></table>
             Number Of Moves: <span id="countMoves">0</span><br /><br />
             <input type="button" class="btn btn-danger" id="resetButton" value="Reset" onclick=startNewGame() />
@@ -42,18 +42,16 @@
                     </div>
                 </div>
                 <div class='row form-group justify-content-center align-items-center'>
-                    <div class="col-4 col-md-4 col-lg-4">
+                    <div class="col-5 col-md-4 col-lg-4">
                         <input id="rowVal" class="form-control border-dark" placeholder="Rows here" />
                     </div>
-                    <div class="col-4 col-md-4 col-lg-4">
+                    <div class="col-5 col-md-4 col-lg-4">
                         <input id="columnVal" class="form-control border-dark" placeholder="Columns here" />
                     </div>
                 </div>
 
                 <div class="row form-group justify-content-center align-items-center">
-                    <div class="col-3 col-md-3 col-lg-3">
-                        <input type="button" class="btn btn-success" value="Start Game!" id="startButton" />
-                    </div>
+                    <input type="button" class="btn btn-success" value="Start Game!" id="startButton" />
                 </div>
             </div>
         </div>
